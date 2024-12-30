@@ -1,0 +1,33 @@
+@use "../../../styles/_partials/mixins" as *;
+@use "../../../styles/_partials/typography" as *;
+@use "../../../styles/_partials/variables" as *;
+
+.hero {
+  padding: 2rem;
+
+  &__image {
+    width: 80vw;
+    overflow: hidden;
+  }
+
+  &__text {
+    @include small-h1;
+    padding: 2rem;
+  }
+
+  &__button {
+    &-box {
+      text-decoration: none;
+      @include flex;
+    }
+    @include button;
+    color: $color5;
+  }
+}
+
+.article {
+  &__title {
+    font-family: paytoneOne;
+    color: $color4;
+  }
+}

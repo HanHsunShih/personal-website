@@ -1,0 +1,26 @@
+@use "./typography" as *;
+@use "./variables" as *;
+
+@mixin flex($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin button {
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  background-color: $color2;
+  border-radius: 5px;
+  font-family: JosefinSans;
+  text-decoration: none;
+}
+
+//text
+//mobile
+
+@mixin small-h1 {
+  font-family: JosefinSans;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}

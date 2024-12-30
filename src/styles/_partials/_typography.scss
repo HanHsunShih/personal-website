@@ -1,28 +1,35 @@
 @font-face {
-  font-family: "JosefinSans";
-  src: url("../../assets/fonts/JosefinSans-VariableFont_wght.ttf");
+  font-family: JosefinSans;
+  src: url(../../assets/fonts/JosefinSans-Thin.woff) format("font-woff"),
+    url(../../assets/fonts/JosefinSans-Thin.woff2) format("font-woff2");
 }
 
 @font-face {
-  font-family: "JosefinSans-Italic";
-  src: url("../../assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf");
+  font-family: PaytoneOne;
+  src: url(../../assets/fonts/PaytoneOne-Regular.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: "PaytoneOne";
-  src: url("../../assets/fonts/PaytoneOne-Regular.ttf");
+  font-family: PurplePurse;
+  src: url(../../assets/fonts/PurplePurse-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(../../assets/fonts/OpenSans-VariableFont_wdth\wght.ttf)
+    format("truetype");
 }
 
 h1 {
   font-family: JosefinSans;
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 h2 {
   font-family: JosefinSans;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
 }
 
 h3 {
@@ -32,7 +39,7 @@ h3 {
 }
 
 p {
-  font-family: PaytoneOne;
+  font-family: OpenSans;
   font-size: 1rem;
   line-height: 1.2rem;
 }
