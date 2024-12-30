@@ -26,8 +26,25 @@
 }
 
 .article {
+  background-color: $color3;
+  padding: 2rem;
   &__title {
+    @include flex;
+    padding-bottom: 2rem;
     font-family: paytoneOne;
     color: $color4;
+  }
+
+  &__description {
+    color: $color5;
+  }
+
+  &__button {
+    &-box {
+      text-decoration: none;
+      @include flex;
+      padding-top: 1rem;
+    }
+    @include button;
   }
 }

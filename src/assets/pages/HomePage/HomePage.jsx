@@ -17,12 +17,14 @@ export default function HomePage() {
       </div>
       <article className="article">
         <h2 className="article__title">Full-Stack Project</h2>
-        <p>
-          This QR code ordering app is built for my sister's cafe in Taiwan,
-          allowing customers to order online. The client side handles menu
-          display and ordering, while the admin dashboard, with login access,
-          lets authorized users view orders and history.
+        <p className="article__description">
+          This QR code ordering app, designed for my sister's cafe in Taiwan,
+          enables online orders with a client-side menu and an admin dashboard
+          for managing orders and history.
         </p>
+        <Link to="/full-stack-project" className="article__button-box">
+          <p className="article__button">{`More >`}</p>
+        </Link>
       </article>
     </>
   );
