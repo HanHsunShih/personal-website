@@ -1,45 +1,55 @@
 @font-face {
-  font-family: JosefinSans;
+  font-family: "JosefinSans";
   src: url(../../assets/fonts/JosefinSans-Thin.woff) format("font-woff"),
     url(../../assets/fonts/JosefinSans-Thin.woff2) format("font-woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: PaytoneOne;
-  src: url(../../assets/fonts/PaytoneOne-Regular.ttf) format("truetype");
+  font-family: "PaytoneOne";
+  src: 
+  // url(../../assets/fonts/PaytoneOne-Regular.ttf) format("truetype")
+    url(../../assets/fonts/PaytoneOne-Regular.woff) format("font-woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-  font-family: PurplePurse;
-  src: url(../../assets/fonts/PurplePurse-Regular.ttf);
+  font-family: "PurplePurse";
+  src: 
+  // url(../../assets/fonts/PurplePurse-Regular.ttf) format("truetype"),
+    url(../../assets/fonts/PurplePurse-Regular.woff) format("font-woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: OpenSans;
-  src: url(../../assets/fonts/OpenSans-VariableFont_wdth\wght.ttf)
-    format("truetype");
-}
+// @font-face {
+//   font-family: OpenSans;
+//   src: url(../../assets/fonts/OpenSans-VariableFont_wdth\wght.ttf)
+//     format("truetype");
+// }
 
 h1 {
-  font-family: JosefinSans;
+  font-family: "PurplePurse";
   font-size: 1.5rem;
   line-height: 1.5rem;
 }
 
 h2 {
-  font-family: JosefinSans;
+  font-family: "JosefinSans";
   font-size: 1.2rem;
   line-height: 1.2rem;
 }
 
 h3 {
-  font-family: JosefinSans;
+  font-family: "JosefinSans";
   font-size: 1rem;
   line-height: 1rem;
 }
 
 p {
-  font-family: OpenSans;
+  font-family: "JosefinSans";
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 1.5rem;
 }

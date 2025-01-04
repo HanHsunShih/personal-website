@@ -1,6 +1,7 @@
 import "./HomePage.scss";
-import heroImage from "../../images/hero-image.png";
 import { Link } from "react-router-dom";
+import heroImage from "../../images/hero-image.png";
+import linkedInLogo from "../../images/LinkedIn-logo.png";
 
 export default function HomePage() {
   return (
@@ -15,17 +16,54 @@ export default function HomePage() {
           <p className="hero__button">More About Me</p>
         </Link>
       </div>
-      <article className="article">
-        <h2 className="article__title">Full-Stack Project</h2>
-        <p className="article__description">
-          This QR code ordering app, designed for my sister's cafe in Taiwan,
-          enables online orders with a client-side menu and an admin dashboard
-          for managing orders and history.
-        </p>
-        <Link to="/full-stack-project" className="article__button-box">
-          <p className="article__button">{`More >`}</p>
+      <main>
+        <article className="article">
+          <h2 className="article__title">Full-Stack Project</h2>
+          <p className="article__description">
+            This QR code ordering app, designed for my sister's cafe in Taiwan,
+            enables online orders with a client-side menu and an admin dashboard
+            for managing orders and history.
+          </p>
+          <Link to="/full-stack-project" className="article__button-box">
+            <p className="article__button">{`More >`}</p>
+          </Link>
+        </article>
+        <article className="article">
+          <h2 className="article__title">Data Analysis</h2>
+          <p className="article__description">
+            Evidence-based decision making driven by data analysis and test
+            results, increasing the sales and boost revenue growth for online
+            shops.
+          </p>
+          <Link to="/full-stack-project" className="article__button-box">
+            <p className="article__button">{`More >`}</p>
+          </Link>
+        </article>
+        <article className="article">
+          <h2 className="article__title">Physical Product Management</h2>
+          <p className="article__description">
+            Utilising product management mindset to grow my giftware company.
+          </p>
+          <Link to="/full-stack-project" className="article__button-box">
+            <p className="article__button">{`More >`}</p>
+          </Link>
+        </article>
+        <article className="article">
+          <h2 className="article__title">Digital Product Management</h2>
+          <p className="article__description">
+            Work with a team of five, we developed an app for wheelchair users.
+          </p>
+          <Link to="/full-stack-project" className="article__button-box">
+            <p className="article__button">{`More >`}</p>
+          </Link>
+        </article>
+      </main>
+      <footer className="footer">
+        <p className="footer__text">Copyright © 2025 Han Hsun Shih</p>
+        <Link>
+          <img className="footer__linkedIn-icon" src={linkedInLogo} />
         </Link>
-      </article>
+      </footer>
     </>
   );
 }
