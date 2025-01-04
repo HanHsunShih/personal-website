@@ -1,7 +1,7 @@
 import "./HomePage.scss";
 import { Link } from "react-router-dom";
-import heroImage from "../../images/hero-image.png";
-import linkedInLogo from "../../images/LinkedIn-logo.png";
+import heroImage from "../../assets/images/hero-image.png";
+import linkedInLogo from "../../assets/images/LinkedIn-logo.png";
 
 export default function HomePage() {
   return (
@@ -58,12 +58,6 @@ export default function HomePage() {
           </Link>
         </article>
       </main>
-      <footer className="footer">
-        <p className="footer__text">Copyright © 2025 Han Hsun Shih</p>
-        <Link>
-          <img className="footer__linkedIn-icon" src={linkedInLogo} />
-        </Link>
-      </footer>
     </>
   );
 }

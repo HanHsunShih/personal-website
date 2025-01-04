@@ -1,0 +1,10 @@
+@use "../../styles/_partials/mixins" as *;
+@use "../../styles/_partials/typography" as *;
+@use "../../styles/_partials/variables" as *;
+
+.about {
+  &__photo {
+    width: 10rem;
+    border-radius: 10px;
+  }
+}

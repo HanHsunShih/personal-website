@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.scss";
-import HomePage from "./assets/pages/HomePage/HomePage";
+import HomePage from "./pages/HomePage/HomePage";
+import Footer from "./components/Footer/Footer";
+import AboutMe from "./pages/AboutMe/AboutMe";
 
 function App() {
   return (
@@ -9,7 +11,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutMe />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
