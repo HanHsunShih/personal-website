@@ -24,7 +24,7 @@ export default function HomePage() {
             enables online orders with a client-side menu and an admin dashboard
             for managing orders and history.
           </p>
-          <Link to="/full-stack-project" className="article__button-box">
+          <Link to="/" className="article__button-box">
             <p className="article__button">{`More >`}</p>
           </Link>
         </article>
@@ -35,7 +35,7 @@ export default function HomePage() {
             results, increasing the sales and boost revenue growth for online
             shops.
           </p>
-          <Link to="/full-stack-project" className="article__button-box">
+          <Link to="/data-analysis" className="article__button-box">
             <p className="article__button">{`More >`}</p>
           </Link>
         </article>
@@ -44,7 +44,7 @@ export default function HomePage() {
           <p className="article__description">
             Utilising product management mindset to grow my giftware company.
           </p>
-          <Link to="/full-stack-project" className="article__button-box">
+          <Link to="/" className="article__button-box">
             <p className="article__button">{`More >`}</p>
           </Link>
         </article>
@@ -53,7 +53,7 @@ export default function HomePage() {
           <p className="article__description">
             Work with a team of five, we developed an app for wheelchair users.
           </p>
-          <Link to="/full-stack-project" className="article__button-box">
+          <Link to="/" className="article__button-box">
             <p className="article__button">{`More >`}</p>
           </Link>
         </article>

@@ -1,3 +1,5 @@
+@use "../../styles/_partials/variables" as *;
+
 @font-face {
   font-family: "JosefinSans";
   src: url(../../assets/fonts/JosefinSans-Thin.woff) format("font-woff"),
@@ -32,20 +34,23 @@
 
 h1 {
   font-family: "PurplePurse";
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: $color4;
 }
 
 h2 {
-  font-family: "JosefinSans";
+  font-family: "PaytoneOne";
   font-size: 1.2rem;
   line-height: 1.2rem;
+  color: $color4;
 }
 
 h3 {
-  font-family: "JosefinSans";
+  font-family: "PaytoneOne";
   font-size: 1rem;
   line-height: 1rem;
+  color: $color4;
 }
 
 p {
