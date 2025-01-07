@@ -1,0 +1,7 @@
+@use "../../styles/_partials/mixins" as *;
+@use "../../styles/_partials/typography" as *;
+@use "../../styles/_partials/variables" as *;
+
+.footer {
+  background-color: $color8;
+}

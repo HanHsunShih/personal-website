@@ -3,8 +3,19 @@
 @use "../../styles/_partials/variables" as *;
 
 .about {
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+
   &__photo {
-    width: 10rem;
+    width: 20rem;
     border-radius: 10px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }

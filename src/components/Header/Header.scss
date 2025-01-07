@@ -1,0 +1,17 @@
+@use "../../styles/_partials/mixins" as *;
+@use "../../styles/_partials/typography" as *;
+@use "../../styles/_partials/variables" as *;
+
+.header {
+  background-color: $color7;
+  @include flex($justify: space-between);
+  padding: 2rem;
+
+  &__logo {
+    width: 4rem;
+  }
+
+  &__hb-icon {
+    width: 2rem;
+  }
+}

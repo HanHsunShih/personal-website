@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <p className="footer__text">Copyright © 2025 Han Hsun Shih</p>
-      <Link to="https://www.linkedin.com/in/amy-hanhsun-shih/">
+      <Link to="https://www.linkedin.com/in/amy-hanhsun-shih/" target="_blank">
         <img className="footer__linkedIn-icon" src={linkedInLogo} />
       </Link>
     </footer>
