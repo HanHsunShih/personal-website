@@ -4,6 +4,15 @@
 
 .hero {
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  &__icon {
+    @include flex;
+    align-self: flex-end;
+    width: 2rem;
+    padding-bottom: 2rem;
+  }
 
   &__image {
     width: 80vw;

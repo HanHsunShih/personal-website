@@ -1,12 +1,17 @@
 import "./HomePage.scss";
 import { Link } from "react-router-dom";
 import heroImage from "../../assets/images/hero-image.png";
-import linkedInLogo from "../../assets/images/LinkedIn-logo.png";
+import hamburgerMenu from "../../assets/images/hamburger-menu-128px.png";
 
 export default function HomePage() {
   return (
     <>
       <div className="hero">
+        <img
+          className="hero__icon"
+          src={hamburgerMenu}
+          alt="hamburger menu icon"
+        />
         <img className="hero__image" src={heroImage} alt="hero image" />
         <h1 className="hero__text">
           Hi! <br />
