@@ -27,12 +27,18 @@
     gap: 1rem;
   }
 
-  &__calendar-img {
-    width: 20rem;
+  &__img {
+    padding: 2rem;
+    width: 100vw;
   }
 
   &__title {
     color: $color4;
+    text-align: center;
+
+    &--light-blue {
+      color: $color3;
+    }
   }
 
   &__content {
@@ -58,5 +64,11 @@
     &--even {
       background-color: $color10;
     }
+  }
+
+  &__Hypothesis-conclusion {
+    background-color: $color9;
+    padding: 1.5rem;
+    border-radius: 30px;
   }
 }
